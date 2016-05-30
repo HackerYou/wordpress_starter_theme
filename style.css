@@ -1,0 +1,563 @@
+/*!
+* Theme Name: HackerYou Starter Theme
+* Theme URI: http://hackeryou.com;
+* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Version: 1.0
+* Author: HackerYou
+* Author URI: http://hackeryou.com
+*/
+
+blockquote,
+pre {
+    background: #F7F7F7
+}
+
+dd,
+pre,
+table td {
+    padding: 10px
+}
+
+#respond,
+svg:not(:root) {
+    overflow: hidden
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+a:focus {
+    outline: dotted thin
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+h1 {
+    font-size: 2em
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em
+}
+
+q {
+    quotes: \201C \201D \2018 \2019
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0;
+    max-width: 100%
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+button,
+input {
+    line-height: normal
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body,
+figure {
+    margin: 0
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+legend {
+    border: 0;
+    padding: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both
+}
+
+a {
+    color: #BA209B;
+    text-decoration: none
+}
+
+a:hover {
+    color: #D424B1
+}
+
+p {
+    line-height: 1.5
+}
+
+blockquote {
+    margin: 0;
+    padding: 20px
+}
+
+blockquote p {
+    margin-top: 0
+}
+
+table tr td:first {
+    padding-right: 0
+}
+
+dt {
+    font-weight: 600;
+    padding-bottom: 5px
+}
+
+dd {
+    margin-left: 10px
+}
+
+ol li,
+ul li {
+    padding: 3px
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 4px;
+    border: 1px solid #ccc
+}
+
+.aligncenter {
+    text-align: center;
+    margin: 0 auto
+}
+
+.alignleft {
+    float: left
+}
+
+.alignright {
+    float: right
+}
+
+img.alignleft {
+    padding-right: 5px
+}
+
+img.alignright {
+    padding-left: 5px
+}
+
+.clear {
+    width: 100%;
+    float: left;
+    clear: both
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0
+}
+
+ul.menu li {
+    display: inline;
+    margin-right: 10px
+}
+
+ul.menu li a {
+    padding: 10px;
+    background: #333;
+    color: #fff
+}
+
+.sidebar {
+    width: 30%;
+    float: left
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0
+}
+
+.sidebar ul li {
+    list-style: none
+}
+
+#comments .navigation {
+    padding: 0 0 18px
+}
+
+h3#comments-title,
+h3#reply-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0
+}
+
+h3#comments-title {
+    padding: 24px 0
+}
+
+.commentlist li.comment {
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 24px;
+    position: relative;
+    clear: both;
+    margin: 0 0 24px;
+    padding: 0 0 0 56px
+}
+
+.commentlist li:last-child {
+    border-bottom: none;
+    margin-bottom: 0
+}
+
+#comments .comment-body ol,
+#comments .comment-body ul {
+    margin-bottom: 18px
+}
+
+#comments .comment-body p:last-child {
+    margin-bottom: 6px
+}
+
+#comments .comment-body blockquote p:last-child {
+    margin-bottom: 24px
+}
+
+.commentlist ol {
+    list-style: decimal
+}
+
+.commentlist .avatar {
+    position: absolute;
+    top: 4px;
+    left: 0
+}
+
+.comment-author cite {
+    color: #000;
+    font-style: normal;
+    font-weight: 700
+}
+
+.comment-author .says {
+    font-style: italic
+}
+
+.comment-meta {
+    font-size: 12px;
+    margin: 0 0 5px
+}
+
+.comment-meta a:link,
+.comment-meta a:visited {
+    color: #888;
+    text-decoration: none
+}
+
+.reply {
+    font-size: 12px;
+    padding: 0 0 24px
+}
+
+.reply a,
+a.comment-edit-link {
+    color: #888
+}
+
+.commentlist .children li {
+    border: none;
+    margin: 0
+}
+
+#comments .pingback {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e7e7e7
+}
+
+.commentlist li.comment+li.pingback {
+    margin-top: -6px
+}
+
+#comments .pingback p {
+    color: #888;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+    margin: 0
+}
+
+#respond dd,
+#respond dt {
+    display: inline
+}
+
+#comments .pingback .url {
+    font-style: italic;
+    font-size: 13px
+}
+
+input[type=submit] {
+    color: #333
+}
+
+#respond {
+    margin-top: 24px;
+    border-top: 1px solid #e7e7e7;
+    position: relative
+}
+
+#respond .comment-notes {
+    margin-bottom: 1em
+}
+
+.form-allowed-tags {
+    line-height: 1em
+}
+
+.children #respond {
+    margin: 0 48px 0 0
+}
+
+h3#reply-title {
+    margin: 18px 0
+}
+
+#comments-list #respond {
+    margin: 0 0 18px
+}
+
+#cancel-comment-reply-link {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400
+}
+
+#respond .required {
+    color: #ff4b33;
+    font-weight: 700
+}
+
+#respond dd,
+#respond dt,
+#respond label {
+    color: #888;
+    font-size: 12px
+}
+
+#respond input {
+    width: 98%;
+    margin: 0 0 9px
+}
+
+#respond textarea {
+    width: 98%
+}
+
+#respond dd,
+#respond dt {
+    line-height: 18px
+}
+
+#respond dd code {
+    font-size: 11px
+}
+
+#respond .form-submit {
+    margin: 0 0 24px
+}
+
+#respond .form-submit input {
+    width: auto;
+    font-size: 14px
+}
+
+#respond dl {
+    margin: 0 0 10px
+}
+
+#respond dt {
+    font-weight: 400
+}
+
+.nocomments,
+p.form-allowed-tags {
+    display: none
+}
+
+.commentlist,
+.commentlist .children {
+    list-style: none;
+    margin: 0
+}
+
+.comment-meta a:active,
+.comment-meta a:hover,
+.reply a:hover,
+a.comment-edit-link:hover {
+    color: #ff4b33
+}
+
+#comments-list ul #respond,
+#respond p {
+    margin: 0
+}
+
+footer {
+    clear: both
+}
+
+body {
+    color: #333
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.content {
+    float: left;
+    width: 65%;
+    margin-right: 5%
+}
+
+.full {
+    width: 100%
+}
+
+
+/*# sourceMappingURL=style.css.map */
