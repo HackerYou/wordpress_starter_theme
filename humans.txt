@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  <your title>: <your name>
+  Site:
+  Twitter:
+  Location:
+
+/* THANKS */
+  WordPress starter theme from HackerYou - http://hackeryou.com
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: WordPress
