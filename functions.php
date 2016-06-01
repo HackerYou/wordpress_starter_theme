@@ -18,6 +18,10 @@ function theme_setup() {
 	// Add default posts and comments RSS feed links to head
 	add_theme_support( 'automatic-feed-links' );
 
+	// add option to upload logo in theme customizer
+	add_theme_support( 'custom-logo' );
+
+
 	/* This theme uses wp_nav_menu() in one location.
 	* You can allow clients to create multiple menus by
   * adding additional menus to the array. */
@@ -32,6 +36,7 @@ function theme_setup() {
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
 	) );
+
 
 }
 endif;
